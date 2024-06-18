@@ -1,0 +1,41 @@
+/* src/components/Quiz.css */
+.quiz-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .timer {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .options button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .options .selected {
+    background-color: #d3d3d3;
+  }
+  
+  .fullscreen-prompt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 24px;
+  }
+  
+  .fullscreen-prompt button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
